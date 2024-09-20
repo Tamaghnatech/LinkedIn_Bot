@@ -28,8 +28,8 @@ def login_to_linkedin():
     password = driver.find_element(By.NAME, 'session_password')
 
     # Enter your LinkedIn login credentials
-    username.send_keys("nagtamaghna@gmail.com")
-    password.send_keys("04011999@eric")
+    username.send_keys("your email goes here")
+    password.send_keys("your password goes here")
 
     # Submit the login form
     password.send_keys(Keys.RETURN)
